@@ -1,45 +1,40 @@
-#include<iostream>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
 
+
 int main () {
 
 
-int n ={4};
+vector <int> nums{12,3453,2333,6,7896};
+int temp{};
+int digit{};
+int count {};
+int evenCount{};
+for (int i=0; i<nums.size();i++){
 
-int target = {0};
-bool found {false};
-vector <int> arr {4,2,3,0,3,1,2};
+temp = nums.at(i);
+                while (temp !=0) {
+                    
+                    digit = temp  %10;
+                    temp = temp /10;
+                    count++;
+                    cout << "   number is : " <<digit << endl;
 
+                }
+cout << count << " <- count" << endl;
 
-cout << " \n \n array is :: - "<< endl;
+if ( count % 2 == 0) evenCount++;
 
-for (int j = 0; j < arr.size(); j ++) {
-    cout << arr[j] << " ";
-}
-
-cout << "\n \n \n";
-while () {
-        cout << arr[i];
-        if ( arr[i] == target) {
-            cout << " target met at index :  " << i;
-            breaK;
-        }
-        
-
-
-
-
-
-
-
+count = 0;
 }
 
 
+cout << " even count is :" << evenCount;
 
-return 0;
 
 
+    return 0;
 }
