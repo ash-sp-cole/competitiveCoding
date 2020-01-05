@@ -20,7 +20,7 @@ for (int i = 0; i < j.length(); i++){
                         char x = s.at(k);
                         if ( l == x) count++;
                     }
-}
+} 
 
 cout << count ;
 
