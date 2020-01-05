@@ -10,7 +10,7 @@ int main () {
 int n ={4};
 
 int target = {0};
-
+bool found {false};
 vector <int> arr {4,2,3,0,3,1,2};
 
 
@@ -21,12 +21,11 @@ for (int j = 0; j < arr.size(); j ++) {
 }
 
 cout << "\n \n \n";
-for (int i = n; i < arr.size() ; i ++) {
+while () {
         cout << arr[i];
-
-
         if ( arr[i] == target) {
             cout << " target met at index :  " << i;
+            breaK;
         }
         
 
