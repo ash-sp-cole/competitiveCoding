@@ -30,5 +30,16 @@ int main()
     third -> data =3;
 
     third->next =NULL;
+
+
+while (head != NULL) {
+
+    std::cout << head->data << " ";
+    head = head->next;
+
+
+};
+
+
     return 0;
 }
