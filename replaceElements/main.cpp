@@ -9,12 +9,40 @@ int main()
 
     int high = (n - 1);
     int temp{};
+
+   for (int k = 0; k < n; k++)
+{
+
+    std::cout<< " " << arr[k];
+
+
+}
+
+
     for (int i = 0; i < n;)
     {
+       
+            for (int j = i+1; j < n-1;) {
 
-        std::cout << " " << arr[i];
-        i++;
+                    if (arr[j] > arr[i]) {
+
+                        arr[i] = arr[j];
+
+                    }
+            j++;
+
+            }
+        
+
     }
 
+
+    for (int k = 0; k < n; k++)
+{
+
+    std::cout<< " " << arr[k];
+
+
+}
     return 0;
 }
