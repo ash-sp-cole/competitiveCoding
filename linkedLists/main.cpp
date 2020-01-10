@@ -10,10 +10,13 @@ public:
 
 int main()
 {
-
-    Node *head = NULL;
+    Node *head 
     Node *second = NULL;
     Node *third = NULL;
+
+
+ 
+
 
     head = new Node();
     second = new Node();
