@@ -3,31 +3,21 @@
 struct Node{
 
 int data{};
-struct Node*  next{};
+Node* next{};
 
 };
 
 
+struct Node* build() {
 
-
-
-
-
-int main () {
-
-
-
-
-struct Node* build(){
-
-struct  Node* head = NULL;
-struct Node* second = NULL;
-struct Node* third = NULL;
+ Node* head = NULL;
+ Node* second = NULL;
+ Node* third = NULL;
 
   
-head = malloc(sizeof(struct Node));
-second = malloc(sizeof(struct Node));
-third = malloc(sizeof(struct Node));
+head = new Node();
+second = new Node();
+third = new Node();
 
 
 head->data = 1;
@@ -39,8 +29,20 @@ second->next = third;
 third ->data = 3;
 third->next == NULL;
 
-
+return head;
 };
+
+
+
+
+
+int main () {
+
+
+
+
+
+
 
 
 
