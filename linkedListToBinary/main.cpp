@@ -34,13 +34,17 @@ return head;
 
 
 
-
-
 int main () {
 
 
 
 
+
+while (head != NULL) {
+
+
+
+}
 
 
 
