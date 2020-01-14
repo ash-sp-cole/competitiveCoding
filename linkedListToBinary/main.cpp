@@ -1,14 +1,20 @@
 #include <iostream>
 
-struct Node{
+struct Node {
 
-int data{};
-Node* next{};
-
-};
+int data {};
+Node* next;
 
 
-struct Node* build() {
+}
+
+
+
+
+int main () {
+
+
+
 
  Node* head = NULL;
  Node* second = NULL;
@@ -27,17 +33,7 @@ second->data =2;
 second->next = third;
 
 third ->data = 3;
-third->next == NULL;
-
-return head;
-};
-
-
-
-int main () {
-
-
-
+third->next = NULL;
 
 
 while (head != NULL) {
