@@ -2,6 +2,24 @@
 
 bool binarySearch (int arr[], int n, int low, int high);
 
+void swap(int *a, int *b);
+
+int partition(int arr[],int low,int high);
+
+void quickSort (int arr[],int low, int high, int n);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main () {
 
@@ -13,19 +31,14 @@ int low {0};
 int high = (n -1);
 int target {6};
 
-
-
-
-
-
-
-
-
+binarySearch(arr,n,low,high);
 
     return 0;
 
 }
 
+
+////////////////////////////////////// BINARY SEARCH ///////////////////////////////////////////////////
 
 bool binarySearch (int arr[], int n, int low, int high) {
 int target{};
@@ -63,6 +76,14 @@ std::cout << " your search target is found at index " << mid << "  value is : " 
 
 return false;
 
+}
 
+///////////////////////////////////// SORTING QUICK SORT ////////////////////////////////////////////////////////
+
+void swap(int *a, int *b) {
+
+int temp = *a;
+*a = *b;
+*b = temp;
 
 }
