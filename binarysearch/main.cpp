@@ -8,19 +8,6 @@ int partition(int arr[],int low,int high);
 
 void quickSort (int arr[],int low, int high, int n);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main () {
 
 int arr[] { 1,2,3,4,5,6,7,8,9,10};
