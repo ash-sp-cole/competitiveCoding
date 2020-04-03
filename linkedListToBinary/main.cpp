@@ -9,11 +9,7 @@ Node* next;
 }
 
 
-
-
 int main () {
-
-
 
 
  Node* head = NULL;
@@ -41,13 +37,6 @@ while (head != NULL) {
 
 
 }
-
-
-
-
-
-
-
 
 
 
