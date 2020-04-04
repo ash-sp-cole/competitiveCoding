@@ -1,10 +1,6 @@
 #include<iostream>
 
-
-
 using namespace std;
-
-
 
 int main () {
 
@@ -25,7 +21,6 @@ n >>=1;
 
 }
 cout << set;
-
 
     return 0;
 }
