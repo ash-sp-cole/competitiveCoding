@@ -24,7 +24,7 @@ binarySearch(arr,n,low,high);
 
 }
 
-///////////////////////////////////// BINARY SEARCH //////////////////////////////////////////////////
+///////////////////////////////////// BINARY SEARCH /////////////////////////////////////////////////
 
 bool binarySearch (int arr[], int n, int low, int high) {
 int target{};
@@ -48,7 +48,6 @@ std::cout << " your search target is found at index " << mid << "  value is : " 
 
     else if (arr[mid] < target) {
 
-
         low = (mid + 1);
 
     }
@@ -56,7 +55,6 @@ std::cout << " your search target is found at index " << mid << "  value is : " 
     else if (arr[mid] > target) {
         high = (mid -1);
     }
-
 
 }
 
