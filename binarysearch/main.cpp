@@ -21,10 +21,7 @@ int target {6};
 binarySearch(arr,n,low,high);
 
     return 0;
-
-}
-
-///////////////////////////////////// BINARY SEARCH /////////////////////////////////////////////////
+///
 
 bool binarySearch (int arr[], int n, int low, int high) {
 int target{};
